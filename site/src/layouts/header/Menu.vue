@@ -4,7 +4,7 @@
     <Ecosystem />
   </template>
   <template v-else>
-    <a-select
+    <!-- <a-select
       key="version"
       class="version"
       size="small"
@@ -17,7 +17,7 @@
         2.x (Not Recommended)
       </a-select-option>
       <a-select-option value="1.x" @click="changeVersion('1x')">1.x (For Vue 2)</a-select-option>
-    </a-select>
+    </a-select> -->
     <a-button
       key="lang-button"
       size="small"
@@ -26,8 +26,8 @@
     >
       {{ $t('app.header.lang') }}
     </a-button>
-    <More />
-    <Github />
+    <!-- <More /> -->
+    <!-- <Github /> -->
   </template>
 </template>
 <script lang="ts">

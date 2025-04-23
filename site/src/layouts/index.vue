@@ -34,7 +34,7 @@
             <section class="main-menu-inner">
               <!-- <Sponsors :is-c-n="isZhCN" /> -->
               <div>
-                <surelyVueVue />
+                <!-- <surelyVueVue /> -->
               </div>
               <Menu :menus="dataSource" :active-menu-item="activeMenuItem" :is-zh-c-n="isZhCN" />
             </section>
@@ -102,7 +102,7 @@
           </a-dropdown>
         </div> -->
         <PrevAndNext :menus="menus" :current-menu-index="currentMenuIndex" :is-zh-c-n="isZhCN" />
-        <Footer />
+        <!-- <Footer /> -->
       </a-col>
     </a-row>
   </div>

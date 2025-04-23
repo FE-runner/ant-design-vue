@@ -16,10 +16,10 @@
 
       <CloseOutlined class="close-icon" @click="visibleAdblockBanner = false" />
     </div> -->
-    <div class="alert-banner">
+    <!-- <div class="alert-banner">
       Surely Form AI 助手内测开放申请 &nbsp;&nbsp;
       <a target="_blank" href="https://form.antdv.com">立即申请</a>
-    </div>
+    </div> -->
     <a-row :style="{ flexFlow: 'nowrap', height: 64, position: 'relative' }">
       <a-col v-bind="colProps[0]">
         <Logo />
@@ -46,7 +46,7 @@
         </template>
       </a-popover>
     </a-row>
-    <a-modal
+    <!-- <a-modal
       title="新版发布，邀您体验"
       :open="visibleAlertBanner"
       :footer="null"
@@ -73,7 +73,7 @@
           <a target="_blank" href="https://store.antdv.com/pro/preview/workplace">立即体验</a>
         </li>
       </ul>
-    </a-modal>
+    </a-modal> -->
   </header>
 </template>
 <script lang="ts">
