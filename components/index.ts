@@ -1,6 +1,7 @@
 import type { App } from 'vue';
 
 import * as components from './components';
+console.log('components', components);
 import { default as version } from './version';
 import cssinjs from './_util/cssinjs';
 export * from './components';

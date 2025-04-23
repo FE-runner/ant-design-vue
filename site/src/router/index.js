@@ -75,56 +75,56 @@ const routes = [
         meta: { enTitle: 'Ant Design of Vue', title: 'Ant Design of Vue', category: 'docs' },
         component: () => import('../vueDocs/introduce.en-US.md'),
       },
-      {
-        path: 'vue/getting-started-cn',
-        meta: { enTitle: 'Getting Started', title: '快速上手', category: 'docs' },
-        component: () => import('../vueDocs/getting-started.zh-CN.md'),
-      },
-      {
-        path: 'vue/getting-started',
-        meta: { enTitle: 'Getting Started', title: '快速上手', category: 'docs' },
-        component: () => import('../vueDocs/getting-started.en-US.md'),
-      },
-      {
-        path: 'vue/compatible-style-cn',
-        meta: { enTitle: 'Compatible Style', title: '样式兼容', category: 'docs' },
-        component: () => import('../vueDocs/compatible-style.zh-CN.md'),
-      },
-      {
-        path: 'vue/compatible-style',
-        meta: { enTitle: 'Compatible Style', title: '样式兼容', category: 'docs' },
-        component: () => import('../vueDocs/compatible-style.en-US.md'),
-      },
-      {
-        path: 'vue/customize-theme-cn',
-        meta: { enTitle: 'Customize Theme', title: '定制主题', category: 'docs' },
-        component: () => import('../vueDocs/customize-theme.zh-CN.md'),
-      },
-      {
-        path: 'vue/customize-theme',
-        meta: { enTitle: 'Customize Theme', title: '定制主题', category: 'docs' },
-        component: () => import('../vueDocs/customize-theme.en-US.md'),
-      },
-      {
-        path: 'vue/ssr-extract-ssr',
-        meta: { enTitle: 'SSR Static style export', title: 'SSR 静态样式导出', category: 'docs' },
-        component: () => import('../vueDocs/extract-ssr.en-US.md'),
-      },
-      {
-        path: 'vue/ssr-extract-ssr-cn',
-        meta: { enTitle: 'SSR Static style export', title: 'SSR 静态样式导出', category: 'docs' },
-        component: () => import('../vueDocs/extract-ssr.zh-CN.md'),
-      },
-      {
-        path: 'vue/replace-date-cn',
-        meta: { enTitle: 'Custom Date Library', title: '自定义时间库', category: 'docs' },
-        component: () => import('../vueDocs/replace-date.zh-CN.md'),
-      },
-      {
-        path: 'vue/replace-date',
-        meta: { enTitle: 'Custom Date Library', title: '自定义时间库', category: 'docs' },
-        component: () => import('../vueDocs/replace-date.en-US.md'),
-      },
+      // {
+      //   path: 'vue/getting-started-cn',
+      //   meta: { enTitle: 'Getting Started', title: '快速上手', category: 'docs' },
+      //   component: () => import('../vueDocs/getting-started.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/getting-started',
+      //   meta: { enTitle: 'Getting Started', title: '快速上手', category: 'docs' },
+      //   component: () => import('../vueDocs/getting-started.en-US.md'),
+      // },
+      // {
+      //   path: 'vue/compatible-style-cn',
+      //   meta: { enTitle: 'Compatible Style', title: '样式兼容', category: 'docs' },
+      //   component: () => import('../vueDocs/compatible-style.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/compatible-style',
+      //   meta: { enTitle: 'Compatible Style', title: '样式兼容', category: 'docs' },
+      //   component: () => import('../vueDocs/compatible-style.en-US.md'),
+      // },
+      // {
+      //   path: 'vue/customize-theme-cn',
+      //   meta: { enTitle: 'Customize Theme', title: '定制主题', category: 'docs' },
+      //   component: () => import('../vueDocs/customize-theme.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/customize-theme',
+      //   meta: { enTitle: 'Customize Theme', title: '定制主题', category: 'docs' },
+      //   component: () => import('../vueDocs/customize-theme.en-US.md'),
+      // },
+      // {
+      //   path: 'vue/ssr-extract-ssr',
+      //   meta: { enTitle: 'SSR Static style export', title: 'SSR 静态样式导出', category: 'docs' },
+      //   component: () => import('../vueDocs/extract-ssr.en-US.md'),
+      // },
+      // {
+      //   path: 'vue/ssr-extract-ssr-cn',
+      //   meta: { enTitle: 'SSR Static style export', title: 'SSR 静态样式导出', category: 'docs' },
+      //   component: () => import('../vueDocs/extract-ssr.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/replace-date-cn',
+      //   meta: { enTitle: 'Custom Date Library', title: '自定义时间库', category: 'docs' },
+      //   component: () => import('../vueDocs/replace-date.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/replace-date',
+      //   meta: { enTitle: 'Custom Date Library', title: '自定义时间库', category: 'docs' },
+      //   component: () => import('../vueDocs/replace-date.en-US.md'),
+      // },
       // {
       //   path: 'vue/migration-v2-cn',
       //   meta: { enTitle: 'V1 to V2', title: '从 v1 到 v2', category: 'docs' },
@@ -155,26 +155,26 @@ const routes = [
       //   meta: { enTitle: 'V3 to V4', title: '从 V3 到 V4', category: 'docs' },
       //   component: () => import('../vueDocs/migration-v4.en-US.md'),
       // },
-      {
-        path: 'vue/i18n-cn',
-        meta: { enTitle: 'Internationalization', title: '国际化', category: 'docs' },
-        component: () => import('../vueDocs/i18n.zh-CN.md'),
-      },
-      {
-        path: 'vue/i18n',
-        meta: { enTitle: 'Internationalization', title: '国际化', category: 'docs' },
-        component: () => import('../vueDocs/i18n.en-US.md'),
-      },
-      {
-        path: 'vue/faq-cn',
-        meta: { enTitle: 'FAQ', title: '常见问题', category: 'docs' },
-        component: () => import('../vueDocs/faq.zh-CN.md'),
-      },
-      {
-        path: 'vue/faq',
-        meta: { enTitle: 'FAQ', title: '常见问题', category: 'docs' },
-        component: () => import('../vueDocs/faq.en-US.md'),
-      },
+      // {
+      //   path: 'vue/i18n-cn',
+      //   meta: { enTitle: 'Internationalization', title: '国际化', category: 'docs' },
+      //   component: () => import('../vueDocs/i18n.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/i18n',
+      //   meta: { enTitle: 'Internationalization', title: '国际化', category: 'docs' },
+      //   component: () => import('../vueDocs/i18n.en-US.md'),
+      // },
+      // {
+      //   path: 'vue/faq-cn',
+      //   meta: { enTitle: 'FAQ', title: '常见问题', category: 'docs' },
+      //   component: () => import('../vueDocs/faq.zh-CN.md'),
+      // },
+      // {
+      //   path: 'vue/faq',
+      //   meta: { enTitle: 'FAQ', title: '常见问题', category: 'docs' },
+      //   component: () => import('../vueDocs/faq.en-US.md'),
+      // },
       // {
       //   path: 'vue/download-cn',
       //   meta: { enTitle: 'Download Design Resources', title: '下载设计资源', category: 'docs' },
@@ -195,11 +195,11 @@ const routes = [
       //   meta: { enTitle: 'Sponsor', title: '支持我们', category: 'docs' },
       //   component: () => import('../vueDocs/sponsor.en-US.md'),
       // },
-      // {
-      //   path: 'vue/changelog-cn',
-      //   meta: { enTitle: 'Change Log', title: '更新日志', category: 'docs' },
-      //   component: () => import('../../../CHANGELOG.zh-CN.md'),
-      // },
+      {
+        path: 'vue/changelog-cn',
+        meta: { enTitle: 'Change Log', title: '更新日志', category: 'docs' },
+        component: () => import('../../../CHANGELOG.zh-CN.md'),
+      },
       // {
       //   path: 'vue/changelog',
       //   meta: { enTitle: 'Change Log', title: '更新日志', category: 'docs' },

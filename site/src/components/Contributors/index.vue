@@ -47,7 +47,7 @@ const getContributors = async () => {
   }
 };
 watchEffect(() => {
-  getContributors();
+  // getContributors();
 });
 </script>
 

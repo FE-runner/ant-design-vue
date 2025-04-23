@@ -18,14 +18,14 @@
       </a-select-option>
       <a-select-option value="1.x" @click="changeVersion('1x')">1.x (For Vue 2)</a-select-option>
     </a-select> -->
-    <a-button
+    <!-- <a-button
       key="lang-button"
       size="small"
       class="header-button header-lang-button"
       @click="onLangChange"
     >
       {{ $t('app.header.lang') }}
-    </a-button>
+    </a-button> -->
     <!-- <More /> -->
     <!-- <Github /> -->
   </template>

@@ -75,8 +75,8 @@ export default defineComponent({
     const globalConfig: GlobalConfig = {
       isMobile,
       responsive,
-      lang: computed<any>(() => i18n.locale.value),
-      isZhCN: computed(() => i18n.locale.value === 'zh-CN'),
+      lang: ref('zh-CN'),
+      isZhCN: ref(true),
       blocked: ref(false),
     };
     const changeTheme = (t: ThemeName) => {

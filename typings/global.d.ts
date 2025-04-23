@@ -268,6 +268,10 @@ declare module 'vue' {
     AWatermark: typeof import('ant-design-vue')['Watermark'];
 
     AFlex: typeof import('ant-design-vue')['Flex'];
+
+    // ============================== BMC start ==============================
+    BSelect: typeof import('ant-design-vue')['BSelect'];
+    // ============================== BMC end ==============================
   }
 }
 export {};

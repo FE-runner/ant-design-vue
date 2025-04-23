@@ -267,3 +267,8 @@ export { default as App } from './app';
 
 export type { FlexProps } from './flex';
 export { default as Flex } from './flex';
+
+// ============================== BMC start ==============================
+export type { BSelectProps } from './BSelect';
+export { default as BSelect } from './BSelect';
+// =============================== BMC end ==============================

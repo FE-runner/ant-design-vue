@@ -4,6 +4,7 @@ import { computed, inject } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { GLOBAL_CONFIG } from '../SymbolKey';
 const typeOrder: any = {
+  BMC: { order: -2, en: 'BMC' },
   组件总览: { order: -1, en: 'Overview' },
   通用: { order: 0, en: 'General' },
   布局: { order: 1, en: 'Layout' },
